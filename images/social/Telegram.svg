@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.428" height="208.428" viewBox="0 0 208.428 208.428">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="208.428" height="208.428" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Telegram" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Oval)">
+      <ellipse id="Oval-2" data-name="Oval" cx="95.214" cy="95.214" rx="95.214" ry="95.214" transform="translate(9 6)" fill="#45aee4"/>
+    </g>
+    <g id="Telegram-2" data-name="Telegram" transform="translate(50.612 56.888)">
+      <path id="Shape" d="M67.677,77.388a2.183,2.183,0,0,1-1.337-.463L46.814,61.975a3.094,3.094,0,0,0-1.9-.649,3.134,3.134,0,0,0-2.04.766L32.053,71.4a2.185,2.185,0,0,1-1.441.546,2.3,2.3,0,0,1-2.189-1.7L20.907,44.751,1.488,37.106a2.464,2.464,0,0,1-.022-4.515L81.162.166A2.186,2.186,0,0,1,81.992,0a2.241,2.241,0,0,1,1.726.842,2.483,2.483,0,0,1,.506,2.067l-14.3,72.555A2.333,2.333,0,0,1,67.677,77.388ZM65.518,15.917a.646.646,0,0,0-.354.112L27.213,40.681a4.146,4.146,0,0,0-1.67,4.533l4.1,15.207a.969.969,0,0,0,.94.752.981.981,0,0,0,.976-.9l1.068-8.341a6.983,6.983,0,0,1,2.013-4.1l31.32-30.706a.69.69,0,0,0,.165-.775A.682.682,0,0,0,65.518,15.917Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="Shape-2" data-name="Shape" d="M1.816,24.764,39.768.112c.682-.442,1.384.531.8,1.1L9.245,31.922a6.98,6.98,0,0,0-2.012,4.1L6.166,44.358A.972.972,0,0,1,4.25,44.5L.147,29.3A4.134,4.134,0,0,1,1.816,24.764Z" transform="translate(25.396 15.917)" fill="#eaeaea"/>
+    </g>
+  </g>
+</svg>

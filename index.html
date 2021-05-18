@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- seo -->
+    <meta name="description" content="text" />
+    <meta name="keywords" content="SBC.CARDS, " />
+    <meta name="author" content="John Doe" />
+    <!-- meta -->
+
+    <title>SBC | SBC.CARDS</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- style -->
+
+    <!-- icon -->
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
+    <!-- icon -->
+  </head>
+  <body>
+    <script>
+      // Registering our Service worker
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js", { scope: "./" });
+      }
+    </script>
+    <div class="warp_page">
+      <div class="container">
+        <!-- divider -->
+        <div class="divider" data-divider="10"></div>
+        <!-- divider -->
+
+        <!-- profile img -->
+        <div
+          class="profile_photo dv_bkground_contain"
+          style="background-image: url(./images/sbc-logo.png)"
+        ></div>
+        <!-- profile img -->
+        <!-- divider -->
+        <div class="divider" data-divider="25"></div>
+        <!-- divider -->
+        <!-- Title -->
+        <h1 class="sbc_title text-center font-weight-bold">SBC.CARDS</h1>
+        <!-- Title -->
+
+        <!-- description -->
+        <p class="sbc_description text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit Placeat optio
+        </p>
+        <!-- description -->
+
+        <!-- social -->
+        <ul
+          class="list-unstyled p-0 sbc_social"
+          data-fontsize="27"
+          data-fontcolor="#000"
+        >
+          <li>
+            <a
+              class="animate__animated animate__slideInRight"
+              href="https://sbc.cards/sbc"
+            >
+              <i class="fas fa-globe"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="animate__animated animate__slideInRight"
+              href="https://fb.com/sbc.cards"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="animate__animated animate__slideInRight"
+              href="https://instagram.com/sbc.cards"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+
+          <li>
+            <a class="animate__animated animate__slideInRight" href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a class="animate__animated animate__slideInRight" href="#">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a class="animate__animated animate__slideInRight" href="#">
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a class="animate__animated animate__slideInRight" href="#">
+              <i class="fab fa-snapchat"></i>
+            </a>
+          </li>
+          <li>
+            <a class="animate__animated animate__slideInRight" href="#">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a class="animate__animated animate__slideInRight" href="#">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a class="animate__animated animate__slideInRight" href="#">
+              <i class="fab fa-skype"></i>
+            </a>
+          </li>
+          <li>
+            <a class="animate__animated animate__slideInRight" href="#">
+              <i class="fab fa-vimeo"></i>
+            </a>
+          </li>
+          <li>
+            <a class="animate__animated animate__slideInRight" href="#">
+              <i class="fab fa-tiktok"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- social -->
+
+        <!-- divider -->
+        <div class="divider" data-divider="25"></div>
+        <!-- divider -->
+
+        <!-- Button -->
+        <a href="https://wa.me/+962777519982">
+          <button class="sbc_button btn" style="background: #4e9e0c">
+            Whatsapp
+          </button>
+        </a>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <a href="youtube.com/chanell">
+          <button class="sbc_button btn" style="background: rgb(199, 18, 18)">
+            Youtube Channel
+          </button>
+        </a>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <a href="mailto:info@sbc.cards">
+          <button class="sbc_button btn" style="background: rgb(18, 187, 199)">
+            Lets Chat
+          </button>
+        </a>
+
+        <!-- Button -->
+
+        <!-- Floating Button -->
+        <div class="floating_button">
+          <img src="./images/social/floating/share.svg" width="23" />
+          <div class="floating_button_tabs">
+            <div
+              class="floating_social_share animate__animated animate__fadeInUp"
+            >
+              <img src="./images/social/floating/Share_Social.svg" width="30" />
+            </div>
+            <div
+              class="floating_social_qr animate__animated animate__fadeInUp"
+              data-toggle="modal"
+              data-target="#qrmodale"
+            >
+              <img src="./images/social/floating/qr.svg" width="25" />
+            </div>
+          </div>
+        </div>
+        <!-- Floating Button -->
+      </div>
+
+      <div class="sbc_footer">
+        <div class="visitors">
+          <i class="fas fa-chart-bar"> </i>
+          <div class="visitors_counter">
+            Visitors :
+            <?php $handle = fopen("counter.txt", "r"); if(!$handle){ echo "could not open the file" ; } else { $counter = (int ) fread($handle,20); fclose ($handle); $counter++; echo  $counter  ; $handle = fopen("counter.txt", "w" ); fwrite($handle,$counter) ; fclose ($handle) ; } ?>
+            500
+          </div>
+        </div>
+
+        <div class="powerd_by">
+          Powered by : <a href="smart-b-card.com" target="_blank">SBC.CARDS</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="./js/app.js"></script>
+
+    <script>
+      let shareData = {
+        title: "SBC.CARDS",
+        text: "Find My Smart Buisness Card Online ",
+        url: "",
+      };
+
+      const btn = document.querySelector(".floating_social_share");
+      const resultPara = document.querySelector(".result");
+
+      btn.addEventListener("click", () => {
+        navigator
+          .share(shareData)
+          .then(() => console.log("share is work"))
+          .catch((e) => (resultPara.textContent = "Error: " + e));
+      });
+    </script>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="qrmodale"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="qrmodaleTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              QR Code Share
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <h3>QR code</h3>
+            <p>Scan this code with another cell phone</p>
+            <img src="./images/qr-code.png" width="250" />
+            <h5>How it works</h5>
+            <p>
+              How it works: A QR code is a two-dimensional square barcode that
+              stores data on this card. This code can be read by most modern
+              phone cameras or via an app that you can easily download from your
+              favorite store
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

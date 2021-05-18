@@ -1,0 +1,17 @@
+{
+  "short_name": "SBC_Cards",
+  "name": "Smart Business Card",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#3a8",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3a8",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit Placeat optio"
+}

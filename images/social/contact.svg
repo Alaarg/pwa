@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.428" height="208.428" viewBox="0 0 208.428 208.428">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="208.428" height="208.428" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(-2136 -594)">
+    <g id="Codepen" transform="translate(2145 600)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Oval)">
+        <circle id="Oval-2" data-name="Oval" cx="95.214" cy="95.214" r="95.214" transform="translate(9 6)" fill="#505050"/>
+      </g>
+    </g>
+    <path id="address-book" d="M73.965,27.143A2.042,2.042,0,0,0,76,25.107V18.322a2.042,2.042,0,0,0-2.036-2.036H70.572V8.143A8.145,8.145,0,0,0,62.429,0H8.143A8.145,8.145,0,0,0,0,8.143V78.715a8.145,8.145,0,0,0,8.143,8.143H62.429a8.145,8.145,0,0,0,8.143-8.143V70.572h3.393A2.042,2.042,0,0,0,76,68.536V61.75a2.042,2.042,0,0,0-2.036-2.036H70.572V48.858h3.393A2.042,2.042,0,0,0,76,46.822V40.036A2.042,2.042,0,0,0,73.965,38H70.572V27.143ZM62.429,78.715H8.143V8.143H62.429ZM35.286,43.429A10.857,10.857,0,1,0,24.429,32.572,10.867,10.867,0,0,0,35.286,43.429Zm-15.2,21.714h30.4a3.558,3.558,0,0,0,3.8-3.257V58.629c0-5.395-5.106-9.772-11.4-9.772-1.832,0-3.172,1.357-7.6,1.357-4.563,0-5.666-1.357-7.6-1.357-6.294,0-11.4,4.377-11.4,9.772v3.257A3.557,3.557,0,0,0,20.086,65.143Z" transform="translate(2202 652)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,228 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(../font/Helvetica.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url(../font/Helvetica-Bold.ttf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.dv_bkground_contain {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.dv_bkground_cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  color: #3a3e42;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.profile_photo {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.sbc_title {
+  font-size: 27px;
+}
+
+.sbc_description {
+  font-size: 16px;
+}
+
+.sbc_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sbc_social li {
+  width: 25%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.sbc_social li .animate__animated {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.sbc_button {
+  display: block;
+  width: 100%;
+  margin: auto;
+  color: #fff;
+  font-weight: 500;
+  height: 60px;
+  margin: 15px 0;
+  border-radius: 7px;
+}
+
+.floating_button_tabs {
+  display: none;
+}
+
+.floating_button_tabs.active {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.floating_button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  background: #046882;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.floating_social_share {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 10px;
+  bottom: 75px;
+  background: #32364f;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.floating_social_qr {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 10px;
+  bottom: 140px;
+  background: #32364f;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.sbc_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.sbc_footer .visitors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 15px;
+  margin: 0 15px;
+}
+
+.sbc_footer .visitors i {
+  margin: 0 5px;
+}
+
+.sbc_footer .visitors_counter {
+  font-weight: bold;
+  color: #32364f;
+}
+
+.sbc_footer .powerd_by {
+  font-weight: bold;
+  color: #32364f;
+  margin: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sbc_footer .powerd_by a {
+  display: inline-block;
+  color: #046882;
+  margin: 0 3px;
+}
+
+@media (min-width: 450px) {
+  .container {
+    max-width: 450px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

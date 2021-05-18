@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.428" height="208.428" viewBox="0 0 208.428 208.428">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="208.428" height="208.428" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Linkedin" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Oval)">
+      <ellipse id="Oval-2" data-name="Oval" cx="95.214" cy="95.214" rx="95.214" ry="95.214" transform="translate(9 6)" fill="#007ab7"/>
+    </g>
+    <path id="Linkedin-2" data-name="Linkedin" d="M54.208,68.359v-22.2c0-5.3-.079-12.116-7.354-12.116-7.378,0-8.484,5.781-8.484,11.72V68.359H24.218V22.7H37.764v6.256h.185c1.9-3.588,6.508-7.363,13.412-7.363,14.337,0,17,9.448,17,21.748v25.02Zm-38.926,0H1.107V22.7H15.284V68.359ZM24.192,22.7h.026ZM0,8.235a8.222,8.222,0,1,1,8.222,8.233A8.238,8.238,0,0,1,0,8.235Z" transform="translate(61.035 58.593)" fill="#fff"/>
+  </g>
+</svg>

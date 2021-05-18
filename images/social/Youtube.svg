@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.428" height="208.428" viewBox="0 0 208.428 208.428">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="208.428" height="208.428" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Youtube" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="95.214" cy="95.214" r="95.214" transform="translate(9 6)" fill="#f52929"/>
+    </g>
+    <path id="Youtube-2" data-name="Youtube" d="M43.945,68.359h0c-.229,0-22.964-.165-29.852-.932-.37-.087-.821-.152-1.344-.228-2.25-.324-5.648-.812-8.355-3.967C1.85,60.315.919,53.666.91,53.6A155.614,155.614,0,0,1,0,37.909v-7.3c0-7.819.9-15.767.91-15.847S1.7,8.044,4.394,5.126A11.972,11.972,0,0,1,12.92,1.111l.018,0,.245-.022C25.313.167,43.76,0,43.945,0S62.577.167,74.706,1.088c.127.012.266.023.417.035a11.189,11.189,0,0,1,8.372,4c2.544,2.918,3.476,9.566,3.485,9.633s.91,8.023.91,15.847v7.3c0,7.664-.9,15.611-.91,15.691s-.941,6.716-3.485,9.633a11.972,11.972,0,0,1-8.526,4.015l-.018,0-.245.022C62.573,68.346,44.13,68.359,43.945,68.359ZM33.337,18.488V52.2L62.129,35.734Z" transform="translate(51.269 61.035)" fill="#fff"/>
+  </g>
+</svg>
